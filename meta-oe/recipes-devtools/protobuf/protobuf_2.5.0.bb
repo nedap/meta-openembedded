@@ -16,6 +16,7 @@ SRC_URI[md5sum] = "b751f772bdeb2812a2a8e7202bf1dae8"
 SRC_URI[sha256sum] = "c55aa3dc538e6fd5eaf732f4eb6b98bdcb7cedb5b91d3b5bdcf29c98c293f58e"
 
 EXTRA_OECONF += " --with-protoc=echo"
+CXXFLAGS += "-D_GLIBCXX_USE_CXX11_ABI=0"
 
 inherit autotools
 
