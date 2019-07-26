@@ -21,6 +21,8 @@ def get_sub(d):
     except:
         return parts[0]
 
+PR = "r2"
+
 SRC_URI = "http://downloads.sourceforge.net/project/ptpd/ptpd/${@get_sub(d)}/ptpd-${PV}.tar.gz \
            file://ptpd-use-pkgconfig.patch \
            file://ptpd.service \

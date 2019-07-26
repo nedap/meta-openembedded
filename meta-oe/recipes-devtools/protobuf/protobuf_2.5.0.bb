@@ -10,6 +10,8 @@ DEPENDS = "zlib"
 
 LIC_FILES_CHKSUM = "file://COPYING.txt;md5=af6809583bfde9a31595a58bb4a24514"
 
+PR = "r1"
+
 SRC_URI = "http://protobuf.googlecode.com/files/protobuf-${PV}.tar.gz"
 
 SRC_URI[md5sum] = "b751f772bdeb2812a2a8e7202bf1dae8"
